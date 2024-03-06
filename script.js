@@ -5,11 +5,15 @@ window.addEventListener("load", function () {
 });
 
 function elemekElerese1() {
-    /**Ide jön az első feladat */
+    let cimELEM=document.getElementById('f1')
+    console.log(cimELEM)
+    console.log(cimELEM.innerHTML)
 }
 function elemekElerese2() {
-    /**Ide jön az 2.  feladat */
+   const ideELEM=document.getElementById("ide")
+   ideELEM.innerHTML="<p>Jó reggelt</p>"
 }
 function elemekElerese3() {
-    /**Ide jön az 3. feladat */
+    const Elem=document.getElementsByClassName("ide")
+    Elem.innerHTML="<p>Jó reggelt</p>"
 }
